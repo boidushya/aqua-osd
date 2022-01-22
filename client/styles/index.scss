@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;600;700;800;900&display=swap');
+@import "bootstrap/scss/bootstrap";
+
+:root{
+	--app-background: #08050d;
+	--app-text: hsl(0, 0%, 100%);
+	--app-theme-primary: #0466C8;
+	--app-theme-primary-disabled: #0353A4;
+	--app-container-bg-primary: #000c22;
+	--app-container-text-primary: #5C677D;
+	--app-container-text-primary-hover: #979DAC;
+	--app-modal-btn-primary:#122039;
+	--font-family:"DM Sans", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html, body{
+	font-family: "DM Sans", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: 500;
+	background: var(--app-background);
+	color: var(--app-text);
+	letter-spacing: -1%;
+	text-rendering: optimizeLegibility;
+}
+
+*{
+	margin: 0 ;
+	padding: 0 ;
+	box-sizing: border-box;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-tap-highlight-color: transparent;
+}
+
+h1,h2,h3,h4,h5,h6{
+	margin: 0 !important;
+}
+
+input{
+	&::placeholder{
+		color: #979DAC;
+	}
+}
+
+input::-webkit-calendar-picker-indicator {
+	filter: invert(0.75);
+}
+
+a{
+	text-decoration: none;
+	&:hover{
+		color: inherit;
+	}
+}
