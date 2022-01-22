@@ -1,0 +1,52 @@
+@import '../../../styles/colors.scss';
+.teacher-row {
+  display: flex;
+  flex-flow: row;
+  margin-bottom: 4rem;
+  height: 60%;
+  &__left {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+	padding-left: 3rem;
+    .teacher {
+      // background-color: gray;
+      position: relative;
+
+      &__video {
+        object-fit: cover;
+      }
+
+      &__name {
+        position: absolute;
+        top: 0;
+      }
+    }
+  }
+
+  &__right {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+	padding-right: 3rem;
+
+    .screenshare-container {
+      background: $primary-dark-3;
+	  border: 0.1rem solid $primary-dark-2;
+      width: 100%;
+      height: 100%;
+      position: relative;
+	  border-radius: 0.75rem;
+      // padding-top: 56.25%;
+
+      #teacher-screenshare-object {
+        // border: 1px solid red;
+        // display: none;
+      }
+    }
+  }
+}
