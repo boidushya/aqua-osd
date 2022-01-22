@@ -1,5 +1,5 @@
 {
-  "name": "ibm-client",
+  "name": "quartz-client",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
