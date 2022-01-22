@@ -1,0 +1,32 @@
+@import './styles/colors.scss';
+.app {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  background-color: black;
+  // background-color: rgba(255, 255, 255, 0.2);
+
+  .utility-bar {
+    background-color: $primary-dark-3;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .participant-grid > .participant-grid-item.flipped >  video {
+    object-fit: cover;
+    width: 100% !important;
+    height: 100% !important;
+    z-index: 0;
+    position: absolute;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg); /* Safari and Chrome */
+    -moz-transform: rotateY(180deg); /* Firefox */
+   }
+
+  video#teacher-video-object.teacher__video.flipped {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg); /* Safari and Chrome */
+    -moz-transform: rotateY(180deg); /* Firefox */
+	border-radius: 0.75rem;
+   }
+}
