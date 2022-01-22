@@ -326,7 +326,7 @@ const Homepage = () => {
 								<CardHeader>
 									<LoginIcon />
 									<Text>
-										Signup to AQUA (
+										Signup to Quartz (
 										{isTeacher ? `Teacher` : `Student`})
 										<label className="switch">
 											<input

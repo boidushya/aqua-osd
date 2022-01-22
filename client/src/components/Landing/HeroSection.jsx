@@ -74,8 +74,8 @@ const HeroSection = () => {
 				<Container>
 					<img src={Logo} height="120px" alt="Logo"/>
 					<ItemContainer>
-						<h1>AQUA</h1>
-						<h4>AQUA is a service to connect students and teachers.
+						<h1>Quartz</h1>
+						<h4>Quartz is a service to connect students and teachers.
 						Developed to improve and manage continuous evaluation
 						of students by academic institutions, it integrates easily
 						with schools and colleges</h4>

@@ -61,7 +61,7 @@ const Navbar = ({ landing }) => {
 		<Nav landing={landing} blur={!isAtTop}>
 			<LogoContainer href="/" ref={logoRef} className="animate-icon">
 				<LogoIcon/>
-				<span>Aqua</span>
+				<span>Quartz</span>
 			</LogoContainer>
 			<ContentContainer>
 				{!isTabletOrMobile?(

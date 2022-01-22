@@ -55,7 +55,7 @@ export default function SeatSelection({
       <div className="seat-selection__overlay">
         <div className="seat-selection__content">
           <div className="seat-selection__instructions">
-            <h1>Aqua Classroom</h1>
+            <h1>Quartz Classroom</h1>
             <p>
               Choose a role to demonstrate the classroom experience. If option
               is greyed out, another user has already selected that role.
